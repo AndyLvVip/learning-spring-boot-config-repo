@@ -16,3 +16,4 @@ spring:
         output:
           destination: learning-spring-boot-comment
           group: learning-spring-boot
+          content-type: application/json
