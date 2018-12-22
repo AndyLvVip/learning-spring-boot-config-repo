@@ -12,6 +12,6 @@ spring:
         input:
           destination: learning-spring-boot-comment
           group: learning-spring-boot
-	output:
+        output:
           destination: learning-spring-boot-comment
           group: learning-spring-boot

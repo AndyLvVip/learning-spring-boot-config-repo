@@ -13,7 +13,7 @@ spring:
   cloud:
     stream:
       bindings:
-	input:
+        input:
           destination: learning-spring-boot-comment
           group: learning-spring-boot
         output:
