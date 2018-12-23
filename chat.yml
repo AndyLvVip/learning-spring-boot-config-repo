@@ -3,7 +3,7 @@ server:
 spring:
   cloud:
     stream:
-      binding:
+      bindings:
         input:
           destination: learning-spring-boot-chat
           group: comment-chat
