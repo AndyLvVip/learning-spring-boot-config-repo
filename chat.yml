@@ -4,10 +4,6 @@ spring:
   cloud:
     stream:
       bindings:
-        input:
-          destination: learning-spring-boot-chat
-          group: comment-chat
-          content-type: application/json
         newComment:
           destination: learning-spring-boot-chat
           group: comment-chat
